@@ -51,7 +51,5 @@ def main():
     hist = han_model.fit(X_train, y_train, epochs=7, batch_size=32, validation_split=0.2)
 
 
-
-
 if __name__ == '__main__':
     main()

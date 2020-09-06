@@ -1,8 +1,7 @@
-from typing import List
 import re
-import pandas as pd
-import nltk
 
+import nltk
+import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
