@@ -1,0 +1,6 @@
+pandas==1.0.3
+numpy==1.18.2
+scikit-learn==0.23.1
+nltk==3.5
+tensorflow==2.0.0-beta0
+nltk==3.5

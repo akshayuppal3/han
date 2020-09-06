@@ -1,0 +1,60 @@
+# MacOS
+.DS_Store
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Generated
+build/
+
+# Python
+*.pyc
+*.ipynb_checkpoints
+.pytest_cache/
+
+# Logs
+*.log
+
+conda-pkgs*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+
+# Pycharm/Intellij
+*.iml
+.idea/
+
+# Flask instance directory
+instance/*.cfg
+
+.cache/
+
+# only used for hacky local stuff atm
+resources/
+
+venv/
+
+script*.py
+
+*.ipynb
+
+.coverage
+
+# building for pip stuff
+**/kftools.egg-info/
+dist/
+
+# Pybuilder
+.pybuilder/
+target/
+
+# Pip configuration
+pip.conf
+
+# local test
+ign_test/kfp
+pybuilder==0.12.6
